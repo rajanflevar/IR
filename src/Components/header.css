@@ -1,0 +1,50 @@
+.nav-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -9vh;
+    background: transparent;
+    z-index: 999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active {
+    background: rgb(10, 26, 51);
+}
+
+.logo-container{
+    margin-left: 15%;
+    color:crimson;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar{
+    margin-right: 15%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlink{
+    padding: 25px;
+    text-decoration: none;
+    color: azure;
+    font-size: 600;
+}
+
+.menu{
+    display: none;
+    color: white;
+}

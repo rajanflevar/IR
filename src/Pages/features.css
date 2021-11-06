@@ -1,0 +1,28 @@
+.f-container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.f-title{
+    padding: 30px;
+    font-family: 'Roboto', 'sans-serif';
+    text-transform: uppercase;
+}
+
+.f-title h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: crimson;
+    letter-spacing: 10px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
